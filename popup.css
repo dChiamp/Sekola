@@ -1,0 +1,25 @@
+body {
+	text-align: center;
+	font-size: 20px;
+}
+
+#countdown-timer {
+	margin-top: 20px;
+	padding: 5%;
+	border: 2px solid black;
+	width: 200px;
+	border-radius: 20px
+}
+
+button {
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px solid black;
+	font-size: 15px;
+	background: white;
+}
+
+form {
+	padding: 10px;
+	border-radius: 10px;
+}
