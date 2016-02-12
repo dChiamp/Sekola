@@ -28,6 +28,7 @@ function timer() {
 	timeDisplay.innerHTML=count + " secs"; // watch for spelling
 	} else {
 	  	timeDisplay.innerHTML="sekola malaka!";
+	  	alert("sekola malaka!");
 	}
 }
 
