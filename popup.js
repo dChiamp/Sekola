@@ -20,13 +20,13 @@ var start = startBtn.addEventListener("click", function(e){
 })
 
 var count=countStartingVal;
-
+// timer logic
 function timer() {
 	count--;
 	if (count > 0) {
 	console.log(count);
 	timeDisplay.innerHTML=count + " secs"; // watch for spelling
-	} else {
+	} else if (count == 0) {
 	  	timeDisplay.innerHTML="sekola malaka!";
 	  	alert("sekola malaka!");
 	}
@@ -36,23 +36,17 @@ resetBtn.addEventListener("click", function() {
 	location.reload();
 })
 
-
 /*
 addTimeBtn.addEventListener("click", function(){
 	countStartingVal.push(5);
 	start;
 })
 
-
 // defualt 20 min countdown
 if (!countStartingVal) {
 	count = 20 min
 } else if (counterStarting val  = time.value) {
 	// start function with inputed time
-}
-
-
-
 }
 
 */
